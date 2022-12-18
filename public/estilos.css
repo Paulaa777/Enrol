@@ -1,0 +1,214 @@
+/* -- Header -- */
+
+.head {   
+  /* background-color: #fff7f7; */
+     background-color: whitesmoke; 
+}
+
+/*position logo*/
+.img-logo {
+    position: fixed;
+    top: 5px;
+    left: 7px;
+}
+
+
+/* -- Links -- */
+
+/*nav-link colors*/
+.nav-link,
+.navLink,
+.enlaceH {
+    color: #630303 !important; 
+}
+
+.nav-link :hover,
+.navLink:hover {
+    color: #fc9c9c !important;
+   /* color: #fdb4b4 !important; */
+   /* color: #fb6a6a !important; */
+}
+
+/* -- Toogler -- */
+
+/*toggler*/
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0px !important; 
+}
+
+
+/* -- Footer -- */
+
+/*footer background-color*/
+.footBackgroudColor {
+  /*  background-color: #635a5a; */
+  background-color: #1a1a1a;
+}
+
+.logoColor {
+    color: #B70505;
+}
+
+/*footer links decoration*/
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+
+.footBackgroudColor a {
+    text-decoration: none;
+   /* color: white; */
+   color: #f4f0f0 !important; 
+}
+
+
+.footBackgroudColor a:hover,
+a:hover,
+.enlace:hover,
+.enlaceH:hover,
+.nav-item:hover {
+    color:#fc9c9c !important; 
+}
+
+.footBackgroudColor a:active,
+a:active,
+.enlaceH:active
+.enlace:active  {
+    color:#630303;
+    background-color: rgba(255, 255, 255, 0.225) !important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer div p {
+   border-top: 1px solid #b3b3b3;
+}
+
+
+/*Nav Panel Horizontal*/
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0px; 
+}
+
+.dropdown-menu {
+    width: 80px;
+    min-width: 70px !important;
+    overflow: auto;
+}
+
+
+/* -- Navbar Dashboard-- */
+
+/*Nav Panel Vertical*/
+.menuVertical .nav-item:hover,
+.menuVertical a:hover {
+    background-color: #4d4d4d8c;
+}
+
+
+/* -- Forms -- */
+
+/*Formularios*/
+.form-background {
+    background-color: #e7e4e4; 
+}
+
+.boton-envio {
+    background-color: #4a0202;    
+    color: white;
+}
+
+.boton-envio:hover,
+.boton-envio:focus{
+    border: 2px solid #4a0202;
+    color: #4a0202;
+    background-color: white;
+}
+
+.boton-envio:active {
+    border: 1px solid #4a0202;
+    color: #4a0202;
+    background-color: white;
+    font-weight: bold;
+}
+
+button:focus { 
+    outline: none !important;
+}
+ 
+.form-control:focus,
+button:focus,
+select:focus { 
+    box-shadow: none; 
+    transition: all 0.1s linear; 
+    border-color: #fc9c9c !important; 
+    box-shadow: inset 0px 0px 0px 2px #fdcece!important;  ; 
+}
+
+/*Boton icon trash*/
+
+button#btn-delete,
+button#btn-delete:focus,
+button#btn-delete:hover, 
+button#btn-delete:active {
+    border-style: none !important;
+    box-shadow: none !important;
+}
+
+
+/*círculo*/
+.circulo {
+    border-radius: 50%;
+}
+
+/*zoom hover*/
+.zoom:hover {
+    -ms-transform: scale(1.12); /* IE 9 */
+    -webkit-transform: scale(1.12); /* Safari 3-8 */
+    transform: scale(1.12); 
+  }
+
+ /*textarea*/
+
+textarea {
+    resize: both;
+}
+  
+
+/*background news image home*/
+.ba-img-news {
+    height: auto;
+    width: auto; 
+    background-image: url("/img/newspaper.jpg"); 
+   /* background-image: url("/img/paper.jpg"); */
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+  /*  filter: opacity(70%); */
+}
+
+/*background news avisos home*/
+.ba-img-warning {
+    height: auto;
+    width: auto; 
+    background-image: url("/img/warninglight.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+}    
+
+/**/
+
+.bg-inicio {
+   background-color: #dcd4d7de;
+}
+
