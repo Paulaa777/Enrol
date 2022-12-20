@@ -54,7 +54,7 @@
                                     <label for="role"> {{ __('Rol Name') }}</label>
                                      <select class="form-select" id="role" name="role" class="form-control" value="{{ $user->role }}" aria-label="rol name">
                                         @foreach ($roles as $role)
-                                            <option value="{{ $role}}" @selected($role)>{{ $user->getRoleNames()->implode(' '); }}</option>
+                                            <option value="{{ $role}}" @selected($role)>{{ $user->role }}</option>
                                         @endforeach
                                     </select>
                                     
